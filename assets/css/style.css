@@ -1,0 +1,59 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+section {
+}
+
+#division {
+    width:100%;
+    padding:20px;
+    margin:10px;
+    background: #6ea3da;
+}
+
+aside {
+    float: left;
+    background: white;
+    width:33%;
+    height:100px;
+    margin-left: 50px;
+}
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #333;
+  background: #666666;
+}
+.main-content{
+  color: #777777;
+  background: #ffffff;
+  border: solid 1px #dddddd;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
