@@ -1,0 +1,22 @@
+/**
+ * Google Fonts Demo
+ **/
+
+/* Add in the Google Fonts of your choice */
+
+.thought1{
+  font-family: 'Pangolin', cursive;
+}
+.thought2{
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+.thought3{
+  font-family: 'Nosifer', cursive;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 28px;
+}
+h1, h3, h4{
+font-family: 'Kumar One Outline', cursive;
+}
